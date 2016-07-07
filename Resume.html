@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>resume.html</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="style.css">
+
+   <style>  .flexcontainer {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  flex-direction: row;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+
+}
+  @media screen and (max-width: 480px) {
+    .flexcontainer {
+    display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox; 
+  justify-content: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  flex-direction: column;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-wrap: wrap;
+}
+#flexItem1 {
+  order: 2;
+}
+#flexItem2 {
+  order: 1;
+}
+#flexItem3 {
+  order: 3;
+}
+}
+#flexItem2 {
+  flex: 1;
+  -moz-flex: 1;
+  -webkit-flex: 1;
+}
+.flexItem {
+  padding: 5px;
+  flex: 1;
+  -moz-flex: 1;
+  -webkit-flex: 1;
+}
+@font-face{
+  font-family: edfont;
+   src: url("bofp.ttf");
+}
+
+
+h1.cv{
+      font-size: 30px;
+      font-family: edfont; 
+      color: #FA0259;
+      text-align: center;
+    }
+h1.port
+    {
+      font-size: 36px;
+      font-family: georgia;
+      color: #2702FA;
+      text-align: center;
+    }
+
+
+h2.cv{
+      font-size: 18px;
+      font-family: Arial;
+      color: grey;
+      font-weight: Bold;
+     }
+h2.port{
+      font-size: 25px;
+      font-family: Courier;
+      color: #2702FA;
+      font-weight: Bold;
+     }
+p.cv{
+      font-size: 12px;
+      font-family: san-serif;
+      color: #B5B5B0; 
+  }
+p.port{
+    font-size: 16px;
+      font-family: san-serif;
+      color: #000000;
+      text-indent: 50px
+    }
+div.cvheading{
+    padding: 10px;
+    margin: 15px;
+    border: 2px black solid;
+    background-color: #394AFA;
+  }
+  div.cvsection{
+      /*width: 265px;*/
+      float: left;
+      padding: 6px;
+      margin: 15px;
+      border: 2px black solid;
+      background-color: #F70F39;
+    }
+   p.foot{
+      text-align: center; 
+      font-size: 10px;
+      font-family: courier;
+      color: #F70F39; 
+  }
+  div.cvfooter{
+      float:left;
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      margin: 10px;
+      border: 2px black solid;
+      background-color: #394AFA;
+    }
+    footer#portfooter{
+  clear: left;
+  width: 1211;
+  padding: 10px;
+  margin: 6px;
+  border: 2px #ADADAC solid;
+  background-color: #FF6800;
+}
+    
+    </style>
+
+  </head>
+  <body>
+   <nav class="navbar">
+      <ul>
+      <li> <a href="Media.html">Html5 Media</a>
+      <li><a href="director.html">Directors Page</a></li>
+      <li><a href="Resume.html">Resume Page</a></li>
+      <li><a href="form.html">Html5 Form</a></li>
+    </ul>
+    </nav>
+    <div class="cvheading"><header><h1 class="cv">Resume</h1></header></div>
+      <article class="flexcontainer">
+            <!--<div class="cvheading"><header><h1 class="cv">Resume</h1></header></div>-->
+            <div class="cvsection">
+              <section class="flexItem">
+                <h2 class="cv">Waffle</h2>
+                  <p class="cv">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>    
+              </section>
+            </div>
+            <div class="cvsection">
+              <section class="flexItem">
+                <h2 class="cv">Nonsense</h2>
+                  <p class="cv">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>    
+              </section>
+            </div>
+            <div class="cvsection">
+              <section class="flexItem">
+                <h2 class="cv">Saywhat?</h2>
+                  <p class="cv">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>    
+              </section>
+            </div>
+            <div class="cvsection">
+              <section class="flexItem">
+                <h2 class="cv">Notbloodylikely</h2>
+                  <p class="cv">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>    
+              </section>
+            </div>
+    </article>
+      <footer id="cvfooter"><p class="foot">contact no:055512234  email: wefwef@aasdd</p></footer>
+    <div class="projheading"><header><h1 class="port">Projects</h1></header></div>
+    <article class="flexcontainer">
+          <!--<div class="projheading"><header><h1 class="port">Projects</h1></header></div>-->
+          <div class="projsection">
+            <section class="flexItem">
+              <h2 class="port">Cold Fusion</h2>
+                  <p class="port">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>    
+            </section>
+          </div>
+          <div class="projsection">
+            <section class="flexItem">
+              <h2 class="port">Reconciled Relativity and Quantum Mechanical Theory</h2>
+                  <p class="port">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>    
+            </section>
+          </div>
+          <div class="projsection">
+            <section  class="flexItem">
+              <h2 class="port">Built Eiffel Tower</h2>
+                  <p class="port">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>    
+            </section>
+          </div>
+    </article>  
+    <footer id="portfooter"><p class="foot"> &copy; 2015</p></footer>
+  </body> 
+</html>

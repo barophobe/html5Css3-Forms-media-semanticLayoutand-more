@@ -1,0 +1,27 @@
+body {
+  background-color: #d5d5d5;
+  color: #161616; }
+
+form {
+  display: block;
+  max-width: 500px;
+  margin: auto; }
+
+fieldset {
+  width: 450px;
+  clear: both;
+  padding: 5px; }
+
+legend {
+  font-size: 30px; }
+
+label {
+  text-align: right;
+  width: 100px;
+  float: left; }
+
+input {
+  width: 200px;
+  background-color: #dadada; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Directors Page</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+
+
+header.dirhead{
+	width: 100%;
+	padding: 20px;
+	margin: 15px;
+	background-color: grey;
+	text-align: center;
+}
+
+footer.dirfoot{
+	width: 100%;
+	float: left;
+	padding: 20px;
+	margin: 20px;
+	background-color: grey;
+}
+p#pfoot{
+	text-align: center;
+}
+.flexcontainer{
+	float: left;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	flex-direction: row;
+	-moz-flex-direction: row;
+	-webkit-flex-direction: row;
+
+}
+	@media screen and (max-width: 480px) {
+		.flexcontainer {
+    display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox; 
+	justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	flex-direction: column;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	background-color: blue;
+	flex-wrap: wrap;
+}
+#flexItem1 {
+	order: 2;
+}
+#flexItem2 {
+	order: 1;
+}
+#flexItem3 {
+	order: 3;
+}
+}
+#flexItem2 {
+	flex: 1;
+	-moz-flex: 1;
+	-webkit-flex: 1;
+}
+.flexItem {
+	padding: 5px;
+	flex: 1;
+	-moz-flex: 1;
+	-webkit-flex: 1;
+}
+    </style>
+  </head>
+  <body>
+   <header class="dirhead">
+   		<h1>Director</h1> 
+	     	<nav class="navbar">
+		  		<ul>
+			  		<li> <a href="Media.html">Html5 Media</a>
+			  		<li><a href="director.html">Directors Page</a></li>
+			  		<li><a href="Resume.html">Resume Page</a></li>
+			  		<li><a href="form.html">Html5 Form</a></li>
+		  	    </ul>
+	  		</nav>
+  </header>    
+      <article class="flexcontainer">
+      <aside class="flexItem" id="flexItem1">
+      	<ul>
+	  <li>Born: Sucha Beskidzka, Poland</li>
+	  <li>Early Work:
+	     <ul>
+	        <li><a href="http://www.imdb.com/title/tt0036775/?ref_=nm_flmg_wr_37">Double Indemnity</a></li>
+			<li><a href="http://www.imdb.com/title/tt0037884/?ref_=nm_flmg_dr_23">Lost Weekend</a></li>
+		 </ul>
+	  </li>
+	  <li>Best known for:<a href="http://www.imdb.com/title/tt0043014/?ref_=nm_knf_t2">Sunset Boulevard</a></li>
+    </ul><br>
+	    <table border="1">
+		        <tr>
+		           <th colspan="2">Films</th>
+				</tr>
+			    <tr>
+			        <td>Double indemnity</td><td>1944</td>
+				</tr>
+				<tr>
+				    <td>The Lost Weekend</td><td>1945</td>
+				</tr>
+				<tr>
+				    <td>Sunset Blvd</td><td>1950</td>
+				</tr>	
+				<tr>
+				    <td>Stalag 17</td><td>1953</td>
+				</tr>	
+				<tr>
+				    <td>Sabrina</td><td>1954</td>
+				</tr> 
+				<tr>
+				    <td>The Seven Year Itch</td><td>1955</td>
+				</tr>
+				<tr>
+				    <td>The Spirit of St. Louis</td><td>1957</td>
+				</tr> 
+				<tr>
+				    <td>Some Like It Hot </td><td>1959</td>
+				</tr>
+				<tr>
+				    <td>The Apartment </td><td>1960</td>
+				</tr> 
+				<tr>
+				    <td>Avanti!</td><td>1972</td>
+				</tr>
+		</table>
+		<br>
+		<br>
+		
+	</aside>
+	<section class="flexItem" id="flexItem2">
+      	
+      	<h2>Director</h2>
+	    <h3>Billy Wilder</h3>		
+           <p> Originally planning to become a lawyer, Billy Wilder abandoned that career in favor of working as a reporter for a Viennese newspaper, using this experience to move to Berlin, where he worked for the city's largest tabloid. He broke into films as a screenwriter in 1929, and wrote scripts for many German films until Adolf Hitler came to power in 1933. Wilder immediately realized his Jewish ancestry would cause problems, so he emigrated to Paris, then the US. Although he spoke no English when he arrived in Hollywood, Wilder was a fast learner, and thanks to contacts such as Peter Lorre (with whom he shared an apartment), he was able to break into American films. His partnership with Charles Brackett started in 1938 and the team was responsible for writing some of Hollywood's classic comedies, including Ninotchka (1939) and Ball of Fire (1941). The partnership expanded into a producer-director one in 1942, with Brackett producing, and the two turned out such classics as Five Graves to Cairo (1943), The Lost Weekend (1945) (Oscars for Best Picture, Director and Screenplay) and Sunset Blvd. (1950) (Oscars for Best Screenplay), after which the partnership dissolved. (Wilder had already made one film, Double Indemnity (1944) without Brackett, as the latter had refused to work on a film he felt dealt with such disreputable characters.) Wilder's subsequent self-produced films would become more caustic and cynical, notably Ace in the Hole (1951), though he also produced such sublime comedies as Some Like It Hot (1959) and The Apartment (1960) (which won him Best Picture and Director Oscars). He retired in 1981.</p>
+        <br>
+        <br>
+        <figure> 
+	        <img src="images/double.jpg" alt="poster of double indemnity">
+			<img src="images/slih.jpg" alt="poster of some like it hot">
+			<img src="images/sunset.jpg" alt="poster of sunset boulevard">
+			   <figcaption>Billy Wilder Films <small><a href="http://www.imdb.com/name/nm0000697/?ref_=fn_al_nm_1">More Info</a></small></figcaption>
+	        </figure>	
+        <br>
+    </section>
+        <section class="flexItem" id="flexItem3">	 	
+	    <h4>Trivia</h4>
+		     <details>
+			      <summary><strong>The Film starring Humphrey Bogart and Audrey Hepburn was?</strong></summary>
+				  <p>Sabrina</p>
+			 </details>
+			 <details>
+			      <summary><strong>The Film starring Marilyn Monroe and Tony Curtis was?</strong></summary>
+				  <p>Some Like It Hot</p>
+			 </details>
+			 <details>
+			      <summary><strong>The Film starring Gloria Swanson and William Holden was?</strong></summary>
+				  <p>Sunset Boulevard</p>
+			 </details>
+		 <br>
+		</section>		 	
+	</article> 
+	<footer class="dirfoot"><p id="pfoot">&copy; copyright information</p></footer>
+  </body> 
+</html>

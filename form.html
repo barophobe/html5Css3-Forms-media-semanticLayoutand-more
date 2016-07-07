@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<title>Form.html</title>
+    <meta charset="utf-8"/>
+     <link rel="stylesheet" href="style.css">
+
+    <style type="text/css">
+
+body {
+  background-color: #d5d5d5;
+  color: #161616; }
+
+form {
+  display: block;
+  max-width: 500px;
+  margin: auto; }
+
+fieldset {
+  width: 450px;
+  clear: both;
+  padding: 5px;
+   }
+
+legend {
+  font-size: 30px; }
+
+label {
+  text-align: right;
+  width: 100px;
+  float: left; }
+
+input {
+  width: 200px;
+  background-color: #dadada; }
+
+
+
+    </style>
+  </head>
+  <body>
+<nav class="navbar">
+  		<ul>
+  		<li> <a href="Media.html">Html5 Media</a>
+  		<li><a href="director.html">Directors Page</a></li>
+  		<li><a href="Resume.html">Resume Page</a></li>
+  		<li><a href="form.html">Html5 Form</a></li>
+  	</ul>
+  	</nav>
+  <form method="post">
+  <fieldset>
+  <legend>Personal Details</legend>
+  <p>
+      <label for="firstname">Firstname:</label>
+      <input type="text" id="firstname" name="firstname" placeholder="Please enter your first name" autofocus required/>
+  </p>
+  <p>
+      <label for="lastname">lastname:</label>
+      <input type="text" id="lastname" name="lastname" placeholder="Please enter your surname" required/>
+  </p>
+  <p>
+      <label for="email">email:</label>
+      <input type="email" id="email" name="email" autocomplete="on"/>
+  </p>
+  <p>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"/>
+  </p>
+  <p>
+     <label for="url">Homepage</label>
+	 <input type="url" id="url" name="url" value="https://www.google.ie/"/>
+   </p> 
+   <p>
+      <label for ="age">Age</label>
+	  <input type="number" id="age" name="age" min="1" max="120"/>
+	</p>
+</fieldset>
+<fieldset>
+  <legend>Numbers</legend>
+	<p>
+      <label for ="mobile">Mobile No.</label>
+	  <input type="text" id="mobile" name="mobile" pattern="[0-9]{10}"/>
+	</p>
+	<p>
+      <label for ="passport">Passport No.</label>
+	  <input type="text" id="passport" name="passport" pattern="[A-Z]{2}[0-9]{7}"/>
+	</p>
+	<p>
+	    <label for="amp">Nigels Amp</label>
+		<input type="range" id="amp" name="amp" value="10" min="0" max="11"/>
+	</p>
+	<p>
+	   <label for="date">Date</label>
+	   <input type="date" id="date" name="date"/>
+	</p>
+ </fieldset>
+ <fieldset>
+  <legend>Choices</legend>
+	<p>
+      <label for="money">Currency</label>
+      <input list="currency" id="money" name="currency"/>
+	    <datalist id="currency">
+		  <option value="Euro">
+		  <option value="Pound">
+		  <option value="Dollar">
+		  <option value="Yen">
+		</datalist>
+	</p>
+	<p>
+	  <label for="browser">Browser</label>
+	      <select id="browser">
+	          <optgroup label="Browser">
+			     <option value="IE">IE</option>
+				 <option value="Chrome">Chrome</option>
+				 <option value="Firefox">Firefox</option>
+				 <option value="Opera">Opera</option>
+			   </optgroup>
+			      <optgroup label="Other">
+				    <option value="Safari">Safari</option>
+					<option value="Netscape">Netscape</option>
+				</optgroup>
+		   </select>
+	</p>
+	<p>
+	   <label for="tea">Tea</label>
+	   <input type="radio" name ="beverage" id="tea" value="tea"><br>
+	   <label for="coffee">Coffee</label>
+	   <input type="radio" name ="beverage" id="coffee" value="coffee"><br>
+	   <label for="soda">Soda</label>
+	   <input type="radio" name ="beverage" id="soda" value="soda">
+	</p>
+	<p>
+	   <label for="carrots">Carrots</label>
+	   <input type="checkbox" name ="vegetables" id="carrots" value="tea"><br>
+	   <label for="peas">Peas</label>
+	   <input type="checkbox" name ="vegetables" id="peas" value="peas"><br>
+	   <label for="potatoes">Potatoes</label>
+	   <input type="checkbox" name ="vegetables" id="potatoes" value="potatoes">
+	</p>
+	<p>
+	   <label for="colorpicker"> Colour Picker</label>
+	   <input type="color" id="colorpicker">
+	</p>
+</fieldset> 
+   <p>
+	 <input type="submit" value="Submit"/>
+   </p>
+   </form><br>
+   <a href="Ed_Connolly.html">Ed Connolly</a><br>
+   <a href="Media.html">Media</a><br>
+   <a href="Recipes.html">Recipes</a><br>
+   
+  </body>  
+</html>
